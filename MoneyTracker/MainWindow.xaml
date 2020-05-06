@@ -1,0 +1,21 @@
+﻿<Window x:Class="MoneyTracker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MoneyTracker"
+        mc:Ignorable="d"
+        Title="Login To Money Tracker" Height="445.095" Width="632.016" AutomationProperties.Name="form login" Icon="Login" Background="#FFF5EAEA" ShowInTaskbar="True">
+    <Grid Margin="56,10,31,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="97*"/>
+            <RowDefinition Height="105*"/>
+        </Grid.RowDefinitions>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="101,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="333" TextChanged="TextBox_TextChanged"/>
+        <Button Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="359,11.482,0,0" AutomationProperties.Name="buttonLogin" Background="#FFE6D048" Grid.Row="1" Click="Button_Click"/>
+        <Label Content="Enter your password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="101,123,0,0" RenderTransformOrigin="0.152,-0.469"/>
+        <Image HorizontalAlignment="Left" Height="92" Margin="219,10,0,0" VerticalAlignment="Top" Width="235"/>
+        <Image Margin="266,17,125,45" Source="master-lock-padlocks-875dlfhc-64_1000.jpg" Stretch="Fill"/>
+
+    </Grid>
+</Window>
